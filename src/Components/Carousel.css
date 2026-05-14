@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+img {
+  height: 800px;
+  width: 100%;
+}
+
+.right-btn,
+.left-btn {
+  position: absolute;
+  background-color: #000000;
+  top: 50%;
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+}
+
+.left-btn {
+  left: 10px;
+}
+
+.right-btn {
+  right: 10px;
+}
